@@ -16,6 +16,7 @@
         "eco": "Економія",
         "overpowering": "Літо",
         "lock_users_active": "Керування користувача заблоковано",
-        "lock_automations_active": "Зміни автоматизації заблоковані"
+        "lock_automations_active": "Зміни автоматизації заблоковані",
+        "code_error": "Невірний код"
+      }
     }
-}
