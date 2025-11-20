@@ -1136,16 +1136,6 @@ export class VersatileThermostatUi extends LitElement implements LovelaceCard {
           this.messages.push(localize({ hass: this.hass, string: `extra_states.${msg}` }));
         }
 
-        // Add new lock messages
-        if (this.isUserLocked) {
-          // Add user lock message if active
-          this.messages.push(localize({ hass: this.hass, string: `extra_states.lock_users_active` }));
-        }
-        if (this.isAutomationLocked) {
-          // Add automation lock message if active
-          this.messages.push(localize({ hass: this.hass, string: `extra_states.lock_automations_active` }));
-        }
-
         if (DEBUG) console.log(`Messages=${JSON.stringify(this.messages)}`);
 
         // Build Power Infos
